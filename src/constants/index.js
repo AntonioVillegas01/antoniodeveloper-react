@@ -29,7 +29,8 @@ import {
     ipn,
     ozon,
     yalo,
-    mgeek
+    mgeek,
+    teslo
 } from "../assets";
 
 export const navLinks = [
@@ -296,10 +297,31 @@ const projects = [
         image: jobit,
         source_code_link: "https://github.com/AntonioVillegas01",
     },
+    // {
+    //     name: "Trip Guide",
+    //     description:
+    //         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //     tags: [
+    //         {
+    //             name: "nextjs",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "supabase",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: tripguide,
+    //     source_code_link: "https://github.com/AntonioVillegas01",
+    // },
     {
-        name: "Trip Guide",
+        name: "Teslo E-commerce",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An wereables e-commerce shop with admin panel and paypal integration",
         tags: [
             {
                 name: "nextjs",
@@ -314,8 +336,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/AntonioVillegas01",
+        image: teslo,
+        source_code_link: "https://tesloshop.antoniodeveloper.com",
     },
 ];
 

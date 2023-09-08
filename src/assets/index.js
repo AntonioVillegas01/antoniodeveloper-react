@@ -37,6 +37,7 @@ import mgeek from "./company/mgeek.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import teslo from "./teslo.png";
 
 export {
   mgeek,
@@ -74,4 +75,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  teslo
 };

@@ -295,7 +295,7 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://project-nextjs13-flexibble-main-qyboi9gnw-antoniovillegas01.vercel.app",
+        source_code_link: "https://project-nextjs13-flexibble-main.vercel.app",
     },
     // {
     //     name: "Trip Guide",    //     description:

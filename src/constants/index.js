@@ -277,25 +277,25 @@ const projects = [
         source_code_link: "https://carshow.antoniodeveloper.com",
     },
     {
-        name: "Job IT",
+        name: "Flexible",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that enables users to upload and share their project portfolio, it´s like a pinterest clone",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "graphql",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/AntonioVillegas01",
+        source_code_link: "https://project-nextjs13-flexibble-main-qyboi9gnw-antoniovillegas01.vercel.app",
     },
     // {
     //     name: "Trip Guide",    //     description:

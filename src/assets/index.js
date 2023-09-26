@@ -38,6 +38,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import teslo from "./teslo.png";
+import threads from "./threads.png";
+
 
 export {
   mgeek,
@@ -75,5 +77,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  teslo
+  teslo,
+  threads
 };

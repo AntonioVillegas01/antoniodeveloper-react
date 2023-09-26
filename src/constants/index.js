@@ -30,7 +30,8 @@ import {
     ozon,
     yalo,
     mgeek,
-    teslo
+    teslo,
+    threads
 } from "../assets";
 
 export const navLinks = [
@@ -261,7 +262,7 @@ const projects = [
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: "react",
+                name: "NextJS",
                 color: "blue-text-gradient",
             },
             {
@@ -282,7 +283,7 @@ const projects = [
             "Web application that enables users to upload and share their project portfolio, it´s like a pinterest clone",
         tags: [
             {
-                name: "nextjs",
+                name: "NextJS",
                 color: "blue-text-gradient",
             },
             {
@@ -297,26 +298,26 @@ const projects = [
         image: jobit,
         source_code_link: "https://project-nextjs13-flexibble-main.vercel.app",
     },
-    // {
-    //     name: "Trip Guide",    //     description:
-    //         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //     tags: [
-    //         {
-    //             name: "nextjs",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "supabase",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "css",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: tripguide,
-    //     source_code_link: "https://github.com/AntonioVillegas01",
-    // },
+    {
+        name: "Threads Clone",
+        description:   "A Threads clone app using Next JS, Clerk and MongoDB",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: threads,
+        source_code_link: "https://threads-main-dk56vxh4j-antoniovillegas01.vercel.app/",
+    },
     {
         name: "Teslo E-commerce",
         description:
@@ -327,7 +328,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "postgre",
                 color: "green-text-gradient",
             },
             {

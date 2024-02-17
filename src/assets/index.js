@@ -33,6 +33,8 @@ import filup from "./company/filup.ico";
 import dotRow from "./company/dotRow.png";
 import ipn from "./company/ipn.png";
 import mgeek from "./company/mgeek.png";
+import altimetrik from "./company/altimetrik.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,6 +44,7 @@ import threads from "./threads.png";
 
 
 export {
+  altimetrik,
   mgeek,
   bankcoin,
     yalo,

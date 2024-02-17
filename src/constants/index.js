@@ -31,7 +31,8 @@ import {
     yalo,
     mgeek,
     teslo,
-    threads
+    threads,
+    altimetrik
 } from "../assets";
 
 export const navLinks = [
@@ -125,11 +126,32 @@ const technologies = [
 
 const experiences = [
     {
+        title: " Staff Engineer",
+        company_name: "Altimetrik",
+        icon: altimetrik,
+        iconBg: "#383E56",
+        date: "July 202 - Current",
+        points: [
+            "Creating and Implementing Advanced API Solutions:\n" +
+            "Lead the design and development of robust API architectures, enhancing platform integration capabilities and data exchange efficiency at Altimetrik.",
+            "Driving Front-End and Back-End Excellence:\n" +
+            "Spearhead full-stack development projects, employing cutting-edge technologies such as React for front-end and Node.js for back-end, to deliver scalable and responsive web applications.",
+            "Optimizing Application Performance and Scalability:\n" +
+            "Implement performance optimization strategies, including code refactoring and database optimization, to ensure high-speed response and scalability of applications under varying loads.",
+            "Mentoring and Leadership:\n" +
+            "Mentor junior developers, fostering a culture of technical excellence and continuous learning within the team, and leading by example in both technical and soft skills.",
+            "Collaborating on Cross-Functional Projects:\n" +
+            "Work closely with product managers, UX/UI designers, and other stakeholders to align development efforts with user needs and business goals, ensuring the timely delivery of high-impact features.",
+            "Innovating with Emerging Technologies:\n" +
+            "Research and integrate emerging technologies and frameworks to keep Altimetrik at the forefront of innovation, enhancing our capabilities in ancestry project development and user experience.",
+        ],
+    },
+    {
         title: "Full-Stack Developer",
         company_name: "OZON",
         icon: ozon,
         iconBg: "#383E56",
-        date: "Feb 2022 - Current",
+        date: "Feb 2022 - Jun 2023",
         points: [
             "Enhancing User Experience with New Technologies:\n" +
             "I integrate innovative technologies into web applications, leveraging React.js to improve user experience and satisfaction at Ozon.",

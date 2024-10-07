@@ -20,6 +20,7 @@ import {
     tesla,
     shopify,
     carrent,
+    fizzBuzz,
     jobit,
     tripguide,
     threejs,
@@ -278,6 +279,35 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "Fizz BUZZ",
+        description:
+            "Web-based platform that that shows smooth 3d animations using Gsap library.",
+        tags: [
+            {
+                name: "NextJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Gsap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Three.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Prismic",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: fizzBuzz,
+        source_code_link: "https://fizzi-on-scroll-animation.vercel.app/",
+    },
     {
         name: "Car Rent",
         description:

@@ -37,6 +37,7 @@ import altimetrik from "./company/altimetrik.png";
 
 
 import carrent from "./carrent.png";
+import fizzBuzz from "./fizz-buzz.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import teslo from "./teslo.png";
@@ -81,5 +82,6 @@ export {
   jobit,
   tripguide,
   teslo,
-  threads
+  threads,
+  fizzBuzz
 };

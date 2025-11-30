@@ -43,8 +43,16 @@ import tripguide from "./tripguide.png";
 import teslo from "./teslo.png";
 import threads from "./threads.png";
 
+import tour3D from "./3dtour-min.png";
+import iphone from "./iphone-min.png";
+import macbook from "./macbook-min.png";
+
+
 
 export {
+    tour3D,
+    iphone,
+    macbook,
   altimetrik,
   mgeek,
   bankcoin,

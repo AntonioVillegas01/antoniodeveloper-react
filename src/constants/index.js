@@ -33,7 +33,7 @@ import {
     mgeek,
     teslo,
     threads,
-    altimetrik
+    altimetrik, macbook, iphone, tour3D
 } from "../assets";
 
 export const navLinks = [
@@ -280,35 +280,6 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Fizz BUZZ",
-        description:
-            "Web-based platform that that shows smooth 3d animations using Gsap library.",
-        tags: [
-            {
-                name: "NextJS",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Gsap",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Three.js",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Prismic",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: fizzBuzz,
-        source_code_link: "https://fizzi-on-scroll-animation.vercel.app/",
-    },
-    {
         name: "Car Rent",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -393,4 +364,91 @@ const projects = [
     },
 ];
 
-export {services, technologies, experiences, testimonials, projects};
+
+const projects3D = [
+    {
+        name: "Fizz BUZZ",
+        description:
+            "Web-based platform that that shows smooth 3d animations using Gsap library.",
+        tags: [
+            {
+                name: "NextJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Gsap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Three.js",
+                color: "green-text-gradient",
+            },
+        ],
+        image: fizzBuzz,
+        source_code_link: "https://fizzi-on-scroll-animation.vercel.app/",
+    },
+    {
+        name: "Mac Book",
+        description:
+            "Web site using 3D animations and Three.js library. Replicates Apple MacBook Pro website",
+        tags: [
+            {
+                name: "React JS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Three.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Gsap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: macbook,
+        source_code_link: "https://macbook.antoniodeveloper.com",
+    },
+    {
+        name: "iPhone",
+        description:
+            "Web site using 3D animations and Three.js library. Replicates Apple iPhone  website",
+        tags: [
+            {
+                name: "React JS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Three.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Gsap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: iphone,
+        source_code_link: "https://iphone.antoniodeveloper.com",
+    },
+    {
+        name: "3D Tours",
+        description:   "A 3D tour app using Three.js library. navigate through different 3d models using mouse and keyboard",
+        tags: [
+            {
+                name: "React JS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Three.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Gsap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tour3D,
+        source_code_link: "https://3d-tour.antoniodeveloper.com",
+    },
+];
+
+export {services, technologies, experiences, testimonials, projects,projects3D};

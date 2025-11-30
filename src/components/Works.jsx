@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import {projects, projects3D} from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -94,6 +94,13 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+        <br/><br/>
+        <h2 className={`${styles.sectionHeadText}`}>3D Animations.</h2>
+        <div className='mt-20 flex flex-wrap gap-7'>
+            {projects3D.map((project, index) => (
+                <ProjectCard key={`project-${index}`} index={index} {...project} />
+            ))}
+        </div>
     </>
   );
 };
